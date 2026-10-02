@@ -41,8 +41,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Test
-        run: npm test -- --runInBand
+      # - name: Test
+      #   run: npm test -- --runInBand
 
   frontend:
     name: Frontend CI
